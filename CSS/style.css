@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:radial-gradient(rgb(59, 58, 73)
+    ,rgb(25, 25, 26));
+    background-color: #16161a;
+    font-family:'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+h1{font: size 3.5em ; color: aliceblue;}
+h2{font-size: 2.7em; color: aliceblue;}
+h3{font-size: 2em; color: aliceblue;}
+h4{font-size: 1.25em; color: aliceblue;}
+p{ font-size:1.1em; color: aliceblue;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(155, 111, 46);
+    padding: 7px;
+
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    text-shadow: 0px 3px 10px black;
+}
+.nav_bar a{
+    text-decoration: none;
+    font-size:1.1em;    
+    color: rgb(255, 255, 255);
+    padding: 0px 12px;
+    text-shadow: 0px 3px 10px black;
+}
+
+
+.home_fondo{
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    padding-left: 20%;
+    flex-direction: column;
+    height: 100vh;   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sistemas-integrados{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://i.imgur.com/iNdgs5L.jpg); 
+}
+.subtitulo {
+    color: rgb(207, 174, 104);
+    text-shadow: 0 0 5px #16161a;
+}
+.control-iluminacion{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://i.imgur.com/8q3jCKj.jpg);
+
+}
+
+.asistente-virtual{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://i.imgur.com/Ij6fvAl.jpg);
+}
+
+.gestion-energia{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://i.imgur.com/e74IwBM.jpg);
+}
+
+.instalaciones-populares{
+    text-align: center;
+    margin: 40px;
+}
+.casa-inteligente{
+    display: flex;
+    margin-top:50px;
+}
+.casa-inteligente__img1{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 10px;
+    box-shadow: 0 5PX 30px rgba(255, 179, 79, 0.671);
+    border-radius: 20px;
+}
+
+
+.casa-inteligente__texto{
+    font-size: 12px;
+    margin: 30px;
+    width: 250px;
+    margin-left: 150px;
+}
+.casa-inteligente__texto h3{
+    margin-bottom: 20px;
+    color: rgb(207, 174, 104);
+
+}
+.casa-inteligente__img2 {
+    height: 250px;
+    width: 400px;
+    margin-left: 250px;
+    box-shadow:10px 15px 20px #16161a;
+}
+
+.cine-casa{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:100px;
+}
+.cine-casa__img1{
+    height: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+    box-shadow: 0 5PX 30px rgba(255, 179, 79, 0.671);
+    border-radius: 20px;
+
+}
+.cine-casa__texto{
+    font-size: 12px;
+    margin: 30px;
+    width: 250px;
+    margin-right: 150px;
+}
+.cine-casa__texto h3{
+    margin-bottom: 20px;
+    color: rgb(207, 174, 104);
+    text-shadow: 0 0 5px #16161a;
+}
+.cine-casa__img2{
+    height: 250px;
+    width: 400px;
+    margin-right: 250px;
+    box-shadow:10px 15px 20px #16161a
+}
+.footer-home{
+    margin-top: 150px;
+}
+
+
+
+.sistema{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.automatizacion-subtitulo{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+    margin-bottom: 70px;
+    color: rgb(207, 174, 104);
+    text-shadow: 0 0 5px #16161a;
+}
+.automatizacion{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+.automatizacion div img{
+    height: 100px;
+}
+.automatizacion p{
+    width: 100px;
+}
+.automatizacion2{
+    display: flex;
+    margin-bottom: 90px;
+}
+.automatizacion2-subtitulo{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+    margin-bottom: 43px;
+    color: rgb(207, 174, 104);
+    text-shadow: 0 0 5px #16161a;
+}
+.automatizacion2 img{
+    height: 90%;
+}
+
+.nosotros-titulo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.nosotros1{
+    display: flex;
+    margin-bottom: 70px;
+}
+.nosotros1 img{
+    height: 340px;
+    margin: 0px 80px;
+}
+.nosotros1 p{
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: rgb(241, 192, 86);
+}
+
+
+.nosotros2{
+    display: flex;
+    margin-bottom: 100px;
+}
+.nosotros-subtitulo{
+    text-align: center;
+    color: rgb(241, 192, 86); 
+    margin-bottom: 27px; 
+}
+.nosotros2__texto{
+    width: 300px;
+    margin: 0px 200px;
+}
+
+.contacto-titulo{
+    text-align: center;
+    margin: 20px;
+}
+.contacto{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.contacto__texto{
+    width: 400px;
+    margin: 130px 200px;
+    color: rgb(241, 192, 86);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0;
+    border: 3px solid black;
+    padding: 30px;
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.64);
+}
+.form p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.producto-titulo{
+    text-align: center;
+    margin: 70px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.container .card{
+    width: 250px;
+    height: 390px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    background-color: #303030;
+}
+
+
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
