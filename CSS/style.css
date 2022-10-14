@@ -1,14 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body{
     background-image:radial-gradient(rgb(59, 58, 73)
     ,rgb(25, 25, 26));
     background-color: #16161a;
     font-family:'Roboto', sans-serif;
-    overflow-x: hidden;
+    
 }
+
+
 h1{font: size 3.5em ; color: aliceblue;}
 h2{font-size: 2.7em; color: aliceblue;}
 h3{font-size: 2em; color: aliceblue;}
@@ -44,7 +47,7 @@ header{
     text-align:left;
     padding-left: 20%;
     flex-direction: column;
-    height: 100vh;   
+    height: 100vh;  
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -153,13 +156,11 @@ header{
     height: 250px;
     width: 400px;
     margin-right: 250px;
-    box-shadow:10px 15px 20px #16161a
+    box-shadow:10px 15px 20px #16161a;
 }
 .footer-home{
     margin-top: 150px;
 }
-
-
 
 .sistema{
     margin-top: 40px;
@@ -175,8 +176,10 @@ header{
     text-shadow: 0 0 5px #16161a;
 }
 .automatizacion{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    justify-items: center;
     margin-bottom: 90px;
 }
 
@@ -187,8 +190,12 @@ header{
     width: 100px;
 }
 .automatizacion2{
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    justify-items: center;
     margin-bottom: 90px;
+
 }
 .automatizacion2-subtitulo{
     text-align: center;
@@ -200,7 +207,10 @@ header{
 }
 .automatizacion2 img{
     height: 90%;
+    width: 330px;
+
 }
+
 
 .nosotros-titulo{
     text-align: center;
@@ -286,7 +296,8 @@ header{
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    background-color: #303030;
+    background-color: rgb(50, 47, 42);
+    transition: all 0.2s;
 }
 
 
@@ -299,4 +310,128 @@ header{
 
 .container .card h4{
     font-weight: 600;
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 5px 12px 16px rgba(0, 0, 0, 0.544);
+}
+
+@media screen and (max-width: 700px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(155, 111, 46);
+        padding: 7px;}
+        .nav_bar a{
+            font-size:20px;
+        }
+        .nav_bar{
+            display: flex;
+            flex-direction: column;
+        }
+        
+
+}
+@media screen and (max-width: 1000px){
+    .automatizacion{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+        margin-bottom: 90px;
+    }
+    .automatizacion2{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-column-gap: 0ch;
+        margin-bottom: 90px;}
+        .automatizacion2 img{
+            height: 90%;
+            width: 400px;}
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+    .subtitulo {
+        color: rgb(207, 174, 104);
+        text-shadow: 0 0 5px #16161a;
+        font-size: 27px;
+    }
+    .texto-secundario{
+        width: 300px;
+    }
+
+        .subtitulo {
+        color: rgb(207, 174, 104);
+        text-shadow: 0 0 5px #16161a;
+        font-size: 27px;
+    }
+    .texto-secundario{
+        width: 300px;
+    }
+    .casa-inteligente{
+        display: flex;
+        flex-direction: column;
+        margin-top:50px;
+    }
+    .casa-inteligente__img1{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        box-shadow: 0 5PX 30px rgba(255, 179, 79, 0.671);
+        border-radius: 20px;
+    }
+    .casa-inteligente__texto h3{
+        text-align: center;
+    }
+    .casa-inteligente__texto{
+        font-size: 12px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    .casa-inteligente__img2 {
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    box-shadow:10px 15px 20px #16161a;
+    }
+
+    .cine-casa{
+        display: flex;
+        flex-direction: column;
+        margin-top:100px;
+    }
+
+    .cine-casa__img1{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        box-shadow: 0 5PX 30px rgba(255, 179, 79, 0.671);
+        border-radius: 20px;
+    
+    }
+    .cine-casa__texto{
+        font-size: 12px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    .cine-casa__texto h3{
+        text-align: center;
+    }
+    .cine-casa__img2{
+        height: 250px;
+        width: 400px;
+        margin: auto;
+        box-shadow:10px 15px 20px #16161a;
+    }
+
 }
