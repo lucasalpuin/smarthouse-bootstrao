@@ -19,26 +19,13 @@ h4{font-size: 1.25em; color: aliceblue;}
 p{ font-size:1.1em; color: aliceblue;}
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgb(155, 111, 46);
-    padding: 7px;
+}
 
-}
-.logo{
-    display: flex;
-}
 .logo h1{
     text-shadow: 0px 3px 10px black;
 }
-.nav_bar a{
-    text-decoration: none;
-    font-size:1.1em;    
-    color: rgb(255, 255, 255);
-    padding: 0px 12px;
-    text-shadow: 0px 3px 10px black;
-}
+
 
 
 .home_fondo{
@@ -183,20 +170,18 @@ header{
     margin-bottom: 90px;
 }
 
+.carousel-inner{
+    height:760px;
+    width: 360px;
+    margin: auto;
+}
 .automatizacion div img{
     height: 100px;
 }
 .automatizacion p{
     width: 100px;
 }
-.automatizacion2{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto;
-    justify-items: center;
-    margin-bottom: 90px;
 
-}
 .automatizacion2-subtitulo{
     text-align: center;
     font-size: 25px;
@@ -252,23 +237,25 @@ header{
     margin: 20px;
 }
 .contacto{
-    display: flex;
     margin-top: 30px;
     margin-bottom: 120px;
 }
 .contacto__texto{
-    width: 400px;
-    margin: 130px 200px;
+    width: 300px;
+    margin: 50px 120px;
     color: rgb(241, 192, 86);
 }
 .form{
     display: flex;
     justify-content: center;
-    margin: 90px 0;
+    width: 350px;
+    height: 550px;
+    margin: auto ;
     border: 3px solid black;
     padding: 30px;
     box-shadow: 3px 4px rgba(0, 0, 0, 0.64);
 }
+
 .form p{
     text-align: center;
     margin-top: 15px;
@@ -316,24 +303,9 @@ header{
     box-shadow: 5px 12px 16px rgba(0, 0, 0, 0.544);
 }
 
-@media screen and (max-width: 700px){
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(155, 111, 46);
-        padding: 7px;}
-        .nav_bar a{
-            font-size:20px;
-        }
-        .nav_bar{
-            display: flex;
-            flex-direction: column;
-        }
-        
 
-}
+
+
 @media screen and (max-width: 1000px){
     .automatizacion{
         display: grid;
@@ -342,15 +314,7 @@ header{
         justify-items: center;
         margin-bottom: 90px;
     }
-    .automatizacion2{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-column-gap: 0ch;
-        margin-bottom: 90px;}
-        .automatizacion2 img{
-            height: 90%;
-            width: 400px;}
+
 }
 
 
