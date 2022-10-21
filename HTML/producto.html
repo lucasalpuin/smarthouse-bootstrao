@@ -7,22 +7,22 @@
     <title>SmartHouse</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">SmartHouse</a>
+                <a class="navbar-brand text-light" href="../index.html">SmartHouse</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                        </li>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
                         <li class="nav-item">
                             <a class="nav-link" href="sistema.html">Sistemas</a>
                         </li>
@@ -39,6 +39,11 @@
                 </div>
             </div>
         </nav>
+        <div class="row">
+            <div class="col text-container">
+                <h1 class="">Producto</h1>
+            </div>
+        </div>
     </header>
     <h2 class="producto-titulo">Productos</h2>
     <div class="container">
@@ -91,13 +96,35 @@
 
     </div>
 
-    <footer >       
-        <h3>Contactanos</h3>
-        <a href="">Gmail</a>
-        <a href="">Instagram</a>
-        <a href="">Whatsapp</a>
-        <p>Copyright © 2022 SmartHouseUy. Todos los derechos reservados.</p>
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            </ul>
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="sistema.html">Sistemas</a></li>
+                <li class="menu__item"><a class="menu__link" href="producto.html">Producto</a></li>
+                <li class="menu__item"><a class="menu__link" href="nosotros.html">Nosotros</a></li>
+                <li class="menu__item"><a class="menu__link" href="contacto.html">Contacto</a></li>
+    
+            </ul>
+        <p >Copyright&copy;2022 SmartHouseUy. Todos los derechos reservados.</p>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="../js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>

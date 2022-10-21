@@ -6,19 +6,20 @@
         <title>Bootstrap demo</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">SmartHouse</a>
+        <header >
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand text-light" href="index.html">SmartHouse</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="HTML/sistema.html">Sistemas</a>
@@ -36,34 +37,18 @@
                     </div>
                 </div>
             </nav>
+            <div class="row">
+                <div class="col text-container">
+                    <h1>SmartHouse</h1>
+                </div>
+            </div>
         </header>
         <main>
-            <section>
-                <div class="sistemas-integrados home_fondo">
-                    <h3 class="subtitulo">SISTEMAS INTEGRADOS</h3><br>
-                    <p>Con solo un toque, opere fácilmente toda la tecnología<br> inteligente de su hogar desde un solo dispositivo.</p>
-                </div>
-                <div class="control-iluminacion home_fondo">
-                    <h3 class="subtitulo">Control de iluminacion</h3><br>
-                    <p>Cree el ambiente perfecto y ahorre energía con el control <br>
-                    inteligente de las luces y la aplicación inteligente de sensores</p>
-                </div> 
-                <div class="asistente-virtual home_fondo">
-                    <h3 class="subtitulo">Asistente virtual</h3><br>
-                    <p>Controla todos tus dispositivos desde un solo asistente virtual.<br>El mismo te permite interactuar con una gran cantidad de dispositivos de vanguardia.</p>
-                </div>
-                <div class="gestion-energia home_fondo">
-                    <h3 class="subtitulo">Gestión de la energía</h3><br>
-                    <p>Optimice el consumo de energía mientras mantiene la comodidad<br> y obtenga un monitoreo en tiempo real.
-                    </p> 
-                </div>
-            </section>
-    
             <section>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col text-center my-5">
-                            <h2 class="instalaciones-populares">Instalaciones Populares</h2>
+                            <h2 class="instalaciones-populares ">Instalaciones Populares</h2>
                         </div> 
                     </div>
                     <div class="row casa-inteligente ">
@@ -72,13 +57,13 @@
                         </div> 
                         <div class="col-md-3 d-flex justify-content-center align-items-center text-center">
                             <div class="casa-inteligente__texto">
-                                <h3>Casa Inteligente</h3>
+                                <h3 class="text-uppercase">Casa Inteligente</h3>
                                 <p>SmartHouse se especializa en integrar los dispositivos de monitoreo, mantenimiento y entretenimiento de su hogar a un sistema automatizado de voz o táctil.</p>
                             </div> 
                         </div>
 
-                        <div class="col-md-6 my-5 d-flex justify-content-center align-items-center text-sm-center casa-inteligente__img2 overflow-hidden">
-                            <img  src="./img/create_scenes_to-simplify_tasks_in_your_california_home_457c9fabf9a0e44dabdebc255aa0acb9.jpg" alt="casa inteligente">
+                        <div class="col-md-6 my-5 d-flex justify-content-center align-items-center text-sm-center  ">
+                            <img class="casa-inteligente__img2" src="./img/create_scenes_to-simplify_tasks_in_your_california_home_457c9fabf9a0e44dabdebc255aa0acb9.jpg" alt="casa inteligente">
                         </div> 
                     </div>
                 </div>
@@ -93,28 +78,74 @@
                         </div> 
                         <div class="col-md-3 d-flex justify-content-center align-items-center text-center">
                             <div class="cine-casa__texto">
-                                <h3>Cine en Casa</h3>
+                                <h3 class="text-uppercase">Cine en Casa</h3>
                                 <p>SmartHouse diseña e instala el mejor cine en casa para su habitación. Da vida a tu experiencia cinematográfica con el amplificador de proyector, hambientacion de colores y  los altavoces adecuados para tu espacio.</p>
                             </div> 
                         </div>
 
-                        <div class="col-md-6 my-5 d-flex justify-content-center align-items-center text-sm-center cine-casa__img2">
-                            <img  src="./img/Pad-Home-theater-4-scaled.jpg" alt="home theater">
+                        <div class="col-md-6 my-5 d-flex justify-content-center align-items-center text-sm-center ">
+                            <img class="cine-casa__img2" src="./img/Pad-Home-theater-4-scaled.jpg" alt="home theater">
                         </div> 
                     </div>
                 </div>
                 </div>
             </section>
+            <section>
+                <div class="sistemas-integrados home_fondo">
+                    <h3 class="subtitulo">SISTEMAS INTEGRADOS</h3><br>
+                    <p class="texto_hero">Con solo un toque, opere fácilmente toda la tecnología inteligente de su hogar desde un solo dispositivo.</p>
+                </div>
+                <div class="control-iluminacion home_fondo">
+                    <h3 class="subtitulo text-uppercase">Control de iluminacion</h3><br>
+                    <p class="texto_hero">Cree el ambiente perfecto y ahorre energía con el control 
+                    inteligente de las luces y la aplicación inteligente de sensores</p>
+                </div> 
+                <div class="asistente-virtual home_fondo">
+                    <h3 class="subtitulo text-uppercase">Asistente virtual</h3><br>
+                    <p class="texto_hero">Controla todos tus dispositivos desde un solo asistente virtual.El mismo te permite interactuar con una gran cantidad de dispositivos de vanguardia.</p>
+                </div>
+                <div class="gestion-energia home_fondo">
+                    <h3 class="subtitulo text-uppercase">Gestión de la energía</h3><br>
+                    <p class="texto_hero">Optimice el consumo de energía mientras mantiene la comodidad y obtenga un monitoreo en tiempo real.
+                    </p> 
+                </div>
+            </section>
+    
+
         </main> 
-        <footer class="footer-home">
-                <h3>Contactanos</h3>
-                <a href="*">Gmail</a>
-                <a href="*">Instagram</a>
-                <a href="*">Whatsapp</a>
-                <p>Copyright © 2022 SmartHouseUy. Todos los derechos reservados.</p>
+        <footer class="footer">
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                </ul>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="HTML/sistema.html">Sistemas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="HTML/producto.html">Producto</a></li>
+                    <li class="menu__item"><a class="menu__link" href="HTML/nosotros.html">Nosotros</a></li>
+                    <li class="menu__item"><a class="menu__link" href="HTML/contacto.html">Contacto</a></li>
+        
+                </ul>
+            <p >Copyright&copy;2022 SmartHouseUy. Todos los derechos reservados.</p>
         </footer>
+
+
     </body>
-    </html>
+    </html>        
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <script src="./js/bootstrap.bundle.min.js" ></script>
     </body>
 </html>
