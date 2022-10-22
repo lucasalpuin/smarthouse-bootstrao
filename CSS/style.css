@@ -15,23 +15,14 @@ h3{font-size: 2em; color: aliceblue;}
 h4{font-size: 1.25em; color: aliceblue;}
 p{ font-size:1.1em; color: rgb(207, 207, 207);}
 
-/* header{
-    background: linear-gradient(to left, #2c3e50, #4ca1af); 
-    display:grid;
-    position: absolute;
-    width: 100%;
-    background-image: url(../img/pexels-benjamin-suter-3617500.jpg);
-    clip-path: polygon(52% 100%, 100% 78%, 100% 0, 0 0, 0 77%);
-    height: 15vh;
-}
- */
+
 header{
 
     width:100vw;
     height: 92vh;
     background: linear-gradient(
         to right,
-        rgba(252, 249, 47, 0.288),
+        rgba(230, 207, 4, 0.541),
         rgba(0, 174, 255, 0.6),
         rgba(51,51,153,0.6)
 
@@ -44,6 +35,7 @@ header{
     position: relative;
 }
 header .text-container{    
+    
     font-family: 'Poppins', sans-serif;
     display: block;
     width: 100%;
@@ -53,10 +45,12 @@ header .text-container{
     left: 50%;
     text-align: center;
     color: #fff;
-    text-shadow: 0 0 10px rgba(0,0,0,0);
+    
 }
 .text-container h1{
-    font-weight: 70px;
+    text-shadow: 0px 01px 7px rgba(0, 0, 0, 0.856);
+    padding: 40px;
+    font-size: 50px;
 }
 .navbar-nav li a{
     color: aliceblue;
@@ -65,9 +59,6 @@ header .text-container{
 .navbar-nav li{
     padding: 0 14px
 }
-
-
-
 
 .home_fondo{
     display: flex;
@@ -136,6 +127,7 @@ header .text-container{
     max-width: 300px;
 }
 .casa-inteligente__texto h3{
+    padding: 10px;
     margin-bottom: 20px;
     color: rgb(207, 174, 104);
 }
@@ -167,6 +159,7 @@ header .text-container{
     max-width: 300px;
 }
 .cine-casa__texto h3{
+    padding: 10px;
     margin-bottom: 20px;
     color: rgb(207, 174, 104);
 }
@@ -176,19 +169,20 @@ header .text-container{
     margin:auto
 } 
 
-.sistema{
-    margin-top: 30px;
-    text-align: center;
-    text-shadow: 0 0 5px #16161a;
-    
+.automatizacion-tareas p img{
+    width: 100px;
+    padding-top:9px;
+    transition: 0.3s;
 }
-.automatizacion-subtitulo{
-    text-align: center;
-    font-size: 27px;
-    margin: 30px;
-    margin-bottom: 30px;
-    color: rgb(233, 227, 213);
-    
+.automatizacion-tareas p img:hover{
+    transform: translateY(-7px);
+}
+
+
+
+.automatizacion-tareas__texto{
+    width: 300px;
+    margin: auto;
 }
 
 
@@ -197,61 +191,29 @@ header .text-container{
     width: 360px;
     margin: auto;
 }
-.automatizacion div img{
-    height: 100px;
-}
-.automatizacion p{
-    width: 100px;
-}
 
-.automatizacion2-subtitulo{
-    text-align: center;
-    font-size: 25px;
-    margin: 30px;
-    margin-bottom: 43px;
-    color: rgb(207, 174, 104);
-    text-shadow: 0 0 5px #16161a;
-}
-.automatizacion2 img{
-    height: 90%;
-    width: 330px;
-
-}
-
-
-.nosotros-titulo{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 90px;
-}
-.nosotros1{
-    display: flex;
-    margin-bottom: 70px;
-}
-.nosotros1 img{
-    height: 340px;
-    margin: 0px 80px;
-}
-.nosotros1 p{
-    width: 450px;
-    margin-left: 50px;
+.nosotros{
     margin-top: 100px;
-    color: rgb(241, 192, 86);
+}
+.nosotros div img{
+    max-width: 400px;
+}
+.nosotros div p{
+    width: 500px;
+    margin: 0 50px;
+    margin-top: 30px;
 }
 
 
-.nosotros2{
-    display: flex;
-    margin-bottom: 100px;
-}
+
 .nosotros-subtitulo{
     text-align: center;
     color: rgb(241, 192, 86); 
-    margin-bottom: 27px; 
+    margin-bottom: 40px;
 }
 .nosotros2__texto{
-    width: 300px;
-    margin: 0px 200px;
+    width: 500px;
+    margin: 50px;
 }
 
 .contacto-titulo{
@@ -263,7 +225,7 @@ header .text-container{
     margin-bottom: 120px;
 }
 .contacto__texto{
-    width: 300px;
+    width: 500px;
     margin: auto;
 
 }
@@ -278,10 +240,6 @@ header .text-container{
 
 }
 
-.form p{
-    text-align: center;
-    margin-top: 15px;
-}
 
 .producto-titulo{
     text-align: center;
@@ -305,7 +263,7 @@ header .text-container{
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    background-color: rgb(50, 47, 42);
+    background-color: rgba(143, 126, 29, 0.836);
     transition: all 0.2s;
 }
 
@@ -324,9 +282,6 @@ header .text-container{
     transform: translateY(-15px);
     box-shadow: 5px 12px 16px rgba(0, 0, 0, 0.544);
 }
-
-
-
 
 .footer {
     position: relative;
